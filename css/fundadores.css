@@ -1,0 +1,456 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+
+@font-face {
+	font-family: 'MinhaFonte2';
+	src: url("../fontes/gadugi.ttf");
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+	font-family: 'Patua One', cursive;
+	font-size: 12pt;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*Início da Formatação do Topo*/
+	.topo {
+		width: 100%;
+		height: 80px;
+		background-color: #004d40;
+	}
+
+	.topo img {
+		display: block;
+		padding-left: 100px;
+		margin-right: auto;
+		padding-top: 8px;
+	}
+
+/*Final da Formatação do Topo*/
+	.intro {
+		background-image: url("../imagens/banner.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 210px;
+		margin-top: 0px;
+		font-family: 'Patua One', cursive;
+		font-size: 40pt;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px black;
+		padding-top: 140px;
+		margin-bottom: 0px;
+	}
+/*Formação linha FUndadores*/
+
+	.pessoas {
+		background-color: #EEEEEE;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+
+	
+/*Formatação das pessoas*/
+	
+/*----------------------------------------------Início Ana Paula---------------------------------------------*/
+	.imagem-ana {
+		display: block;
+		float: left;
+		margin-left: 30px;
+		margin-top: 20px;
+		border: 8px solid white;
+	}
+
+	.pessoa1 {
+		background-color: white;
+		padding-top: 10px;
+		border: 5px solid white;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+		margin-right: 30px;
+		margin-left: 300px;
+		padding-left: 30px;
+		padding-right: 20px;
+		text-align: justify;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.pessoa1:hover {
+		background-color: #FFFDE7;
+	}
+
+
+	.pessoa1 .ana {
+		font-family: 'Patua One', cursive;
+		font-size: 18pt;
+		color: #00c853;
+	}
+
+	.pessoa1 h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 16pt;
+		text-align: right;
+		margin:  0px;
+		font-style: italic;
+		color: #00c853;
+	}
+
+	.ana-texto {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 14pt;
+		color: gray;
+		font-style: italic;
+		display: block;
+		float: right;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.facebook-ana {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.linkein-ana {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.fundacity-ana {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*----------------------------------------------Final Ana Paula---------------------------------------------*/
+
+/*-----------------------------------------------Início Osmir-----------------------------------------------*/
+.imagem-osmir {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 8px solid white;
+}
+.pessoa2 {
+		background-color: white;
+		border: 5px solid white;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+		margin-right: 30px;
+		margin-left: 300px;
+		padding-left: 30px;
+		padding-right: 20px;
+		text-align: justify;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.pessoa2:hover {
+		background-color: #FFFDE7;
+	}
+
+
+	.pessoa2 .osmir {
+		font-family: 'Patua One', cursive;
+		font-size: 18pt;
+		color: #00c853;
+	}
+
+	.pessoa2 h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 16pt;
+		text-align: right;
+		margin:  0px;
+		font-style: italic;
+		color: #00c853;
+	}
+
+	.osmir-texto {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 14pt;
+		color: gray;
+		font-style: italic;
+		display: block;
+		float: right;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.facebook-osmir {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.linkein-osmir {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.fundacity-osmir {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*------------------------------------------------Final Osmir-----------------------------------------------*/
+
+/*-----------------------------------------------Início Thiago-----------------------------------------------*/
+
+.imagem-thiago {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 8px solid white;
+}
+.pessoa3 {
+		background-color: white;
+		border: 5px solid white;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+		margin-right: 30px;
+		margin-left: 300px;
+		padding-left: 30px;
+		padding-right: 20px;
+		text-align: justify;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.pessoa3:hover {
+		background-color: #FFFDE7;
+	}
+
+
+	.pessoa3 .thiago {
+		font-family: 'Patua One', cursive;
+		font-size: 18pt;
+		color: #00c853;
+	}
+
+	.pessoa3 h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 16pt;
+		text-align: right;
+		margin:  0px;
+		font-style: italic;
+		color: #00c853;
+	}
+
+	.thiago-texto {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 14pt;
+		color: gray;
+		font-style: italic;
+		display: block;
+		float: right;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.facebook-thiago {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.linkein-thiago {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.fundacity-thiago {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*-----------------------------------------------Final Thiago------------------------------------------------*/
+
+/*-----------------------------------------------Início Rafael------------------------------------------------*/
+.imagem-rafael {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 8px solid white;
+}
+.pessoa4 {
+		background-color: white;
+		border: 5px solid white;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+		margin-right: 30px;
+		margin-left: 300px;
+		padding-left: 30px;
+		padding-right: 20px;
+		text-align: justify;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.pessoa4:hover {
+		background-color: #FFFDE7;
+	}
+
+
+	.pessoa4 .rafael {
+		font-family: 'Patua One', cursive;
+		font-size: 18pt;
+		color: #00c853;
+	}
+
+	.pessoa4 h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 16pt;
+		text-align: right;
+		margin:  0px;
+		font-style: italic;
+		color: #00c853;
+	}
+
+	.rafael-texto {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 14pt;
+		color: gray;
+		font-style: italic;
+		display: block;
+		float: right;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.facebook-rafael {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.linkein-rafael {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.fundacity-rafael {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*-----------------------------------------------Final Rafael------------------------------------------------*/
+
+/*-----------------------------------------------Início Adrianne----------------------------------------------*/
+.imagem-adrianne {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	border: 8px solid white;
+}
+.pessoa5 {
+		background-color: white;
+		border: 5px solid white;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+		margin-right: 30px;
+		margin-left: 300px;
+		padding-left: 30px;
+		padding-right: 20px;
+		text-align: justify;
+		display: block;
+	}
+
+	.pessoa5:hover {
+		background-color: #FFFDE7;
+	}
+
+
+	.pessoa5 .adrianne {
+		font-family: 'Patua One', cursive;
+		font-size: 18pt;
+		color: #00c853;
+	}
+
+	.pessoa5 h4 {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 16pt;
+		text-align: right;
+		margin:  0px;
+		font-style: italic;
+		color: #00c853;
+	}
+
+	.adrianne-texto {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 14pt;
+		color: gray;
+		font-style: italic;
+		display: block;
+		float: right;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.facebook-adrianne {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.linkein-adrianne {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.fundacity-adrianne {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*-----------------------------------------------Final Adrianne------------------------------------------------*/
+
+/*Início da Formatação do Rodapé*/
+	.rodape {
+		width: 100%;
+		height: 160px;
+		background-color: #004d40;
+		padding-top: 10px;
+		margin-top: 5px;
+	}
+
+	.rodape h6 {
+		font-family: 'MinhaFonte2';
+		color: white;
+		font-size: 12pt;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	.rodape h5 {
+		text-align: center;
+	}
+	.rodape .imagem-facebook {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.rodape .imagem-linkein {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.rodape .imagem-youtube {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.rodape .imagem-instagram {
+		background-position: center;
+		padding-left: 10px;
+	}
+
+	.rodape .imagem-fundacity {
+		background-color: center;
+		padding-left: 10px;
+	}
+/*Final da Formatação do Rodapé*/
+
